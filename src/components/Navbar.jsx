@@ -8,6 +8,9 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-start w-full py-6 navbar">
       <img src={logo} alt="bankyEasy" className="w-[120px] h-[30px]" />
+      <span className="text-teal-600 absolute top-14 left-20 font-bold text-[18px] ">
+        conference
+      </span>
       <ul className="list-none justify-end sm:flex  flex-1 items-center hidden ">
         {navLinks.map((nav, index) => (
           <li
