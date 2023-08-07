@@ -4,12 +4,12 @@ import { stats } from "../constants";
 console.log(stats);
 const Stats = () => {
   return (
-    <div className="flex flex-wrap w-[100%] xs:place-content-center">
+    <div className="flex flex-wrap w-[100%] xs:place-content-center sm:py-16 py-6">
       {stats.map((stat) => {
         return (
           <div
             key={stat.id}
-            className="flex flex-1 justify-center items-center flex-wrap m-3"
+            className="flex flex-1 justify-start items-center flex-wrap m-3"
           >
             <h3 className="text-white font-poppins font-semibold sm:text[40px] text-[35px] mr-4 xs:leading-53px leading-43px">
               {stat.value}
