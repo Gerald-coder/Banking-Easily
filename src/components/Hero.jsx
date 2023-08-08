@@ -13,7 +13,7 @@ function IMG() {
 const Hero = () => (
   <>
     <IMG />
-    <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section className={`flex gap-10 md:flex-row flex-col ${styles.paddingY}`}>
       <div
         className={`flex  justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}
       >
@@ -40,7 +40,7 @@ const Hero = () => (
         </div>
 
         <h1 className="text-white  ss:text-[52px] text-[38px] ss:leading-[70px] leading-[52px] font-poppins font-semibold py-3 ">
-          generational banking transition
+          transitional banking 
         </h1>
         <p className="text-slate-400 font-poppins font-semibold text-[18px] leading-[30px] max-w-[490px] mt-5">
           An educative team of experts uses a methodology to identify the credit

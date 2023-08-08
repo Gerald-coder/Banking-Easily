@@ -31,11 +31,11 @@ const FeatureCard = ({ feature, index }) => {
 const Business = () => {
   return (
     <section
-      className="flex  justify-center items-center sm:py-16 py-6 flex-col sm:flex-row xs:gap-10 "
+      className="flex  justify-center items-center sm:py-16 py-6 flex-col sm:flex-row xs:gap-20 "
       id="features"
     >
       <div className="flex flex-col justify-center  items-start gap-3">
-        <h2 className=" text-white font-poppins font-semibold sm:text[40px] text-[35px]  xs:leading-53px leading-43px">
+        <h2 className=" text-white font-poppins font-semibold sm:text[30px] text-[35px]  xs:leading-53px leading-43px">
           You do the business, <br className="sm:block hidden" /> we’ll handle
           the money.
         </h2>
