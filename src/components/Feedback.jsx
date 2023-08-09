@@ -13,7 +13,7 @@ const Feedback = ({ content, name, title, img }) => {
         {content}
       </p>
       <div className="flex justify-between items-center gap-3  ">
-        <img src={img} alt={name} className="w-[37px] mr-5" />
+        <img src={img} alt={name} className="w-[37px] mr-5 rounded-full" />
         <div className="flex flex-col justify-center items-start ">
           <p className="flex-1 text-slate-400 font-poppins font-normal xs:text-[15px] text-[20px] max-w-[490px] ">
             {name}
