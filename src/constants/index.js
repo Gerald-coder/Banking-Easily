@@ -240,3 +240,82 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const slides = [
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWU4d8g3Q-yDWVzyrslM9ToPxOP_U9j9PC3g&usqp=CAU",
+    title:
+      "We drive you to a world of virtual banking, where you need not border about your own security",
+    id: 0,
+    venue: "SEET complex",
+    time: "1:00 pm",
+    speakers: ["Gerald", "Manuel", "Majesty"],
+    date: "August 28th",
+    details:
+      "We Start by introducing our days target and what we tend to achieve at the end of the conference, thereafter we introduce our speakers and let them take the ground to unleash all they have come with",
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyoBoZZ-e1iw0IGqhuPw45p-LH1N3PkzjD2g&usqp=CAU",
+    title: "Revolutionazing how you bank, all over Africa",
+    id: 1,
+    venue: "New Building",
+    time: "10:00 am",
+    speakers: ["Manuel", "Gerald", "Majesty"],
+    date: "August 17th",
+    details:
+      "On this day, we get our customers inclined in the different ways they can invest in our stocks and shares, creating room for a good company-customer relationship and allowing them to venture properly and become stock owners",
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkw73CWe88NI8VgMMpX2520YlP3e-SI-4M7Q&usqp=CAU",
+    title: "Creating a global community for all Africa banks and beyound",
+    id: 2,
+    venue: "Lecture Hall 2",
+    time: "12:00 pm",
+    speakers: ["Best", "Martins"],
+    date: "August 25th",
+    details:
+      "Banks and the way activites around the bank are ever changing and evolving, we will go further to enlighten oue users on the possibility of BANK FROM YOUR HOME (BFYH) evolutiomn, which is going to give customers the trust the need to perform all transactions from the confort of their homes without ever seeing the bank",
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfVYjlEsq0ashZCLzzxe4BEjO9qukZIgvU0Q&usqp=CAU",
+    title:
+      "You could do more with us, we are lookinf forward to mind blowing innovations",
+    id: 3,
+    venue: "SMAT Auditoriun",
+    time: "11:20 am",
+    speakers: ["Wisdom", "Best", "Martins"],
+    date: "August 30th",
+    details:
+      "Welcoming of the CEOs and CTOs for a live session and interaction with their most valued customers so as to enable them get a real time and trustworthy conversion with the top mmost ranks of their bank",
+  },
+];
+
+// export const back = (
+//   <svg
+//     xmlns="http://www.w3.org/2000/svg"
+//     className="ionicon"
+//     viewBox="0 0 512 512"
+//   >
+//     <path
+//       fill="none"
+//       stroke="currentColor"
+//       stroke-linecap="round"
+//       stroke-linejoin="round"
+//       stroke-width="48"
+//       d="M328 112L184 256l144 144"
+//     />
+//   </svg>
+// );
+
+// export const forward = (
+//   <svg xmlns="http://www.w3.org/2000/svg" className="ionicon" viewBox="0 0 512 512">
+//     <path
+//       fill="none"
+//       stroke="currentColor"
+//       stroke-linecap="round"
+//       stroke-linejoin="round"
+//       stroke-width="48"
+//       d="M184 112l144 144-144 144"
+//     />
+//   </svg>
+// );

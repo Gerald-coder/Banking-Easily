@@ -9,8 +9,9 @@ import Stats from "./Stats";
 import Button from "./Button";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
+import Events from "./Events";
 
-export  {
+export {
   CTA,
   Navbar,
   Billing,
@@ -22,4 +23,5 @@ export  {
   Stats,
   Testimonials,
   Footer,
+  Events,
 };

@@ -6,7 +6,13 @@ import Getstarted from "./Getstarted";
 function IMG() {
   return (
     <div className={`grid h-100% ${styles.paddingY}`}>
-      <img src={bank} alt="my bank and I" width="1920" height="967" />
+      <img
+        src={bank}
+        alt="my bank and I"
+        width="1920"
+        height="967"
+        className="px-6"
+      />
     </div>
   );
 }
@@ -40,7 +46,7 @@ const Hero = () => (
         </div>
 
         <h1 className="text-white  ss:text-[52px] text-[38px] ss:leading-[70px] leading-[52px] font-poppins font-semibold py-3 ">
-          transitional banking 
+          transitional banking
         </h1>
         <p className="text-slate-400 font-poppins font-semibold text-[18px] leading-[30px] max-w-[490px] mt-5">
           An educative team of experts uses a methodology to identify the credit
