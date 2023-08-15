@@ -18,7 +18,7 @@ import EventSession from "./components/EventSession";
 const Apps = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className="xl:max-w-[1280px] w-full">
+      <div className="xl:max-w-[1280px] w-full  z-30 fixed top-0 bg-primary sm:px-16 px-6">
         <Navbar />
       </div>
     </div>

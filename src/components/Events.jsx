@@ -74,7 +74,7 @@ function ImageSlider() {
     margin: "0 5px",
   };
   return (
-    <div style={sliderStyles} id="speakers">
+    <div style={sliderStyles} id="events">
       <h2
         className=" text-white font-poppins font-semibold sm:text[30px] text-[35px]  xs:leading-53px leading-43px mb-6"
         style={{ color: "white", fontSize: "2rem" }}

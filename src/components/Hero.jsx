@@ -5,7 +5,7 @@ import Getstarted from "./Getstarted";
 
 function IMG() {
   return (
-    <div className={`grid h-100% ${styles.paddingY}`}>
+    <div className={`grid h-100% ${styles.paddingY} mt-[5rem] `} id="home">
       <img
         src={bank}
         alt="my bank and I"

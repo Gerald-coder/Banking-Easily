@@ -4,7 +4,7 @@ import Feedback from "./Feedback";
 
 const Testimonials = () => (
   <section
-    id="clients"
+    id="speakers"
     className="sm:py-16 py-6 flex flex-col justify-center item-center relative"
   >
     <div className="absolute w-[60%] h-[60%] rounded-full -right-[60%] z-[0] blue__gradient flex-1" />
