@@ -12,16 +12,18 @@ const Navbar = () => {
         conference
       </span>
       <ul className="list-none justify-end sm:flex  flex-1 items-center hidden ">
-        {navLinks.map((nav, index) => (
-          <li
-            key={nav.id}
-            className={`font-poppins cursor-pointer text-[16px] font-normal accent-white text-white  ${
-              index === navLinks.length - 1 ? "mr-0" : "mr-10"
-            }`}
-          >
-            <a href={`#${nav.id}`}>{nav.title}</a>
-          </li>
-        ))}
+        {navLinks.map((nav, index) => {
+          return (
+            <li
+              key={nav.id}
+              className={`font-poppins cursor-pointer text-[16px] font-normal accent-white text-white  ${
+                index === navLinks.length - 1 ? "mr-0" : "mr-10"
+              }`}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          );
+        })}
       </ul>
       <div className="sm:hidden flex-1  flex justify-end items-center">
         <img

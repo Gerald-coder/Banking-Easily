@@ -10,6 +10,8 @@ import Button from "./Button";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 import Events from "./Events";
+import Modal from "./Modal";
+import Registration from "./Registration";
 
 export {
   CTA,
@@ -24,4 +26,6 @@ export {
   Testimonials,
   Footer,
   Events,
+  Modal,
+  Registration,
 };

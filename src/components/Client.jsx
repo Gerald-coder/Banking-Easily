@@ -3,7 +3,7 @@ import { clients } from "../constants";
 
 const Client = () => {
   return (
-    <main className="flex justify-center items-center my-[5rem]">
+    <main className="flex justify-center items-center my-[5rem]" id="sponsors">
       <div className="flex  flex-wrap justify-center items-center w-full gap-7">
         {clients.map((client) => {
           return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { bank, discount, robot } from "../assets";
+import { bank, discount, robot, Hoobank } from "../assets";
 import styles from "../style";
 import Getstarted from "./Getstarted";
 
@@ -7,7 +7,7 @@ function IMG() {
   return (
     <div className={`grid h-100% ${styles.paddingY} mt-[5rem] `} id="home">
       <img
-        src={bank}
+        src={Hoobank}
         alt="my bank and I"
         width="1920"
         height="967"
@@ -40,7 +40,7 @@ const Hero = () => (
             networking <br />
             <span className=" text-gradient">To create </span> <br />
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0 text-white">
+          <div className="ss:flex hidden md:mr-4 mr-0 text-white" id="register">
             <Getstarted />
           </div>
         </div>

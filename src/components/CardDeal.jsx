@@ -20,7 +20,7 @@ const CardDeal = () => {
           fostering partnerships and collaborations.
         </p>
         <div className="flex flex-row gap-8 sm:mt-10 mt-6">
-          <Button text="Get tickets" />
+          <Button text="Get tickets"  />
         </div>
       </div>
       <div className="flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative">

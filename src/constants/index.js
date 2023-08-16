@@ -39,8 +39,8 @@ export const navLinks = [
     title: "Events",
   },
   {
-    id: "tickets",
-    title: "Get Tickets",
+    id: "sponsors",
+    title: "Sponsors",
   },
 ];
 

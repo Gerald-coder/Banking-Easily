@@ -44,7 +44,7 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
-        <Button text="Buy Ticket" />
+        <Button text="Buy Ticket"  />
       </div>
       <div className="flex flex-col justify-center  items-start  gap-3">
         {features.map((feature, index) => {
